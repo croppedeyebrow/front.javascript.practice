@@ -48,3 +48,15 @@ console.log(newStr);
        let str20 = "5";
        str20 = str20.padStart(4,0); //
        console.log(str20);
+
+
+
+
+// Number 객체 : 숫자와 관련된 작업을 할 때 사용하는 메소드
+// Number.parseFloat() 메소드
+
+console.log(Number.parseFloat("12"));         // 12
+console.log(Number.parseFloat("12.34"));      // 12.34
+console.log(Number.parseFloat("12문자열"));   // 12
+console.log(Number.parseFloat("12 34 56"));   // 12
+console.log(Number.parseFloat("문자열 56")); // NaN
